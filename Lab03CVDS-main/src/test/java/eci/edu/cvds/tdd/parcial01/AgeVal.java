@@ -11,7 +11,7 @@ private int p;
         this.p = p;
     }
     public boolean agenum( ) {
-        if (p < 18 && p > 0){
+        if (p < 18 && p >= 0){
             return true;
         }
         else
